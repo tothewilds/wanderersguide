@@ -15,9 +15,6 @@ fancybox: true
 
 # Miscellaneous
 social_networks:
-  - name: Tumblr
-    className: tumblr
-    href: http://tumblr.com/widgets/share/tool?canonicalUrl=
   - name: Facebook
     className: facebook
     href: https://www.facebook.com/sharer.php?u=
