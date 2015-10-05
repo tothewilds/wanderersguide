@@ -121,6 +121,17 @@ article {
 
 .article-nav {
   padding: 0 1em;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row-reverse;
+}
+
+.article-nav #article-nav-newer {
+  text-align: right;
+}
+
+.article-nav > a {
+  flex: 1 0 0;
 }
 
 .share-link {
