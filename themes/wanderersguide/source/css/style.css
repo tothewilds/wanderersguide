@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lora;
+  background-color: rgb(218, 215, 207);
+  color: #220C00;
+}
+
+img {
+  display: block;
+  width: calc(100% + 2em);
+  border-radius: 1px;
+  margin-left: -1em;
+  margin-bottom: 1em;
+}
+
+p:first-child > img:first-child {
+  margin-top: -1em;
+}
+
+.article-entry > img:first-child {
+  margin-top: -1em;
+}
+
+.article-entry > img:last-child {
+  margin-bottom: -1em;
+}
+
+a {
+  color: #A03F1F;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4A8686;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Quando;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+#container {
+  max-width: 640px;
+  padding: 1em;
+  margin: auto;
+}
+
+#header {
+  text-align: center;
+  padding-top: 2em;
+}
+
+#header > h1 {
+  margin: 0.5em 0 0 0;
+}
+
+#header > h2 {
+  font-family: lora;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 1.5em 0;
+}
+
+#footer {
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#content {
+  display: flex;
+  flex-flow: row;
+}
+
+#main {
+  padding-right: 0.5em;
+  flex: 3 0 0;
+}
+
+#sidebar {
+  padding-left: 0.5em;
+  flex: 1 0 0;
+}
+
+article {
+  padding: 2em 0;
+}
+
+.article-meta {
+  font-style: italic;
+  padding: 0 1em;
+}
+
+.article-inner > header {
+  padding: 0 1em;
+}
+
+.article-inner > header h1 {
+  margin-top: 0;
+}
+
+.article-entry {
+  overflow: hidden;
+  background-color: #fff;
+
+  padding: 1em;
+  border-radius: 2px;
+  box-shadow: 0 1px 14px rgba(34, 12, 0, 0.25),
+    inset 0 10px 100px rgb(250, 255, 240);
+
+}
+
+.article-nav {
+  padding: 0 1em;
+}
+
+.share-link {
+  display: inline-block;
+  font-size:0;
+}
+
+.share-link:after {
+  font-family: fontello;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin: 1em 0.5em;
+  line-height: 1em;
+  font-size: 18px;
+}
+
+.share-link.tumblr:after {
+  content: '\e800'
+}
+
+.share-link.facebook:after {
+  content: '\e801';
+}
+
+.share-link.twitter:after {
+  content: '\e802';
+}
+
+.share-link.google-plus:after {
+  content: '\e803';
+}
+
+.share-link.pinterest:after {
+  content: '\e804';
+}
+
+
+
+

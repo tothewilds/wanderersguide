@@ -1,0 +1,39 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+#sidebar: right
+#widgets:
+#- archive
+
+# Miscellaneous
+social_networks:
+  - name: Tumblr
+    className: tumblr
+    href: http://tumblr.com/widgets/share/tool?canonicalUrl=
+  - name: Facebook
+    className: facebook
+    href: https://www.facebook.com/sharer.php?u=
+  - name: Twitter
+    className: twitter
+    href: https://twitter.com/intent/tweet?url=
+  - name: Pinterest
+    className: pinterest
+    href: http://pinterest.com/pin/create/button/?url=
+  - name: Google+
+    className: google-plus
+    href: https://plus.google.com/share?url=
+
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

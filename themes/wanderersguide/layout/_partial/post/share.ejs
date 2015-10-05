@@ -1,0 +1,8 @@
+<% theme.social_networks.forEach(function(social_network) { %>
+  <a target="_blank"
+     title="<%- social_network.name %>"
+     class="share-link <%- social_network.className %>"
+     href="<%- social_network.href + encodeURIComponent(post.permalink) %>">
+    <%- social_network.name %>
+  </a>
+<% }) %>
